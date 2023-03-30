@@ -1,0 +1,110 @@
+/*Font Family*/
+
+@font-face {
+    font-family: Changaone-ita;
+    src: url(ChangaOne-Italic.ttf);
+  }
+  
+  @font-face {
+    font-family: Changaone-reg;
+    src: url(ChangaOne-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: haas;
+    src: url(NHaasGroteskTXPro-55Rg.ttf);
+  }
+  
+  @font-face {
+    font-family: Raleway;
+    src: url(Raleway-VariableFont_wght.ttf);
+  }
+  
+  @font-face {
+    font-family: Raleway-ita;
+    src: url(Raleway-Italic-VariableFont_wght.ttf);
+  }
+  
+  body{
+      background-color: #4C0000;
+  }
+
+  .navigation nav{ 
+    margin-bottom: 0px ;
+    padding: 15px;
+  }
+
+  .photography-nav-link{
+    text-decoration: underline;
+    text-underline-offset: 15px;
+
+  }
+  .photography-page-section{
+    background-color: #E1DAC2;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+   
+    
+  }
+
+  .photography-page-section h3{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: Changaone-reg;
+    color: #4C0000;
+    font-size: 40px;
+    padding-bottom: 20px;
+    
+  }
+
+  
+  .photography-box1{
+    padding: 10px;
+
+  }
+
+  .photography-box2{
+    padding: 10px;
+
+  }
+
+
+  .photography-box3{
+    padding: 10px;
+
+  }
+
+  .photography-box4{
+    padding: 10px;
+
+  }
+
+  .photography-box-but{
+    text-decoration: none;
+    color: #4C0000;
+    border: #4C0000 2px solid ;
+    border-radius: 8px;
+    background-color: #E1DAC2;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+height: 50px;
+     width: 150px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    font-family: Raleway;
+   
+  }
+
+  .photography-box-but:hover{
+    text-decoration: none;
+    color: #E1DAC2;
+  
+    background-color: #4C0000;
+  }
+

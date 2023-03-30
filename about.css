@@ -1,0 +1,104 @@
+/*Font Family*/
+
+@font-face {
+    font-family: Changaone-ita;
+    src: url(ChangaOne-Italic.ttf);
+  }
+  
+  @font-face {
+    font-family: Changaone-reg;
+    src: url(ChangaOne-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: haas;
+    src: url(NHaasGroteskTXPro-55Rg.ttf);
+  }
+  
+  @font-face {
+    font-family: Raleway;
+    src: url(Raleway-VariableFont_wght.ttf);
+  }
+  
+  @font-face {
+    font-family: Raleway-ita;
+    src: url(Raleway-Italic-VariableFont_wght.ttf);
+  }
+  
+  body{
+      background-color: #4C0000;
+  }
+
+  .navigation nav{ 
+    margin-bottom: 0px ;
+    padding: 15px;
+  }
+
+  .about-nav-link{
+    text-decoration: underline;
+    text-underline-offset: 15px;
+
+  }
+  .about-page-section{
+    background-color: #E1DAC2;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    padding-top: 50px;
+    padding-bottom: 80px;
+   
+    
+  }
+  
+  .about-hide h1{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: Changaone-reg;
+    color: #4C0000;
+    font-size: 84px;
+
+  }
+
+  .about-info h3{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: Changaone-reg;
+    color: #4C0000;
+    font-size: 40px;
+
+  }
+
+  .about-info p{
+    text-align: justify;
+    font-size: 20px;
+    font-family: Raleway;
+    color: #4C0000;
+  }
+
+  .about-img{
+    
+    height: 401px;
+  }
+
+.about-img img{
+  border-radius: 15px;
+}
+
+.about-next-but {
+    padding-top: 5px;
+    padding-right: 45px;
+    float: right;
+}
+
+.about-next-but img {
+    height: 60px;
+    width: 60px;
+
+}
+
+.about-next-but a img:hover, .about-next-but1 a img:hover, .about-next-but2 a img:hover {
+  transition: 0.2s;
+    transform: scale(1.1);
+
+}

@@ -1,0 +1,440 @@
+/*Font Family*/
+
+@font-face {
+    font-family: Changaone-ita;
+    src: url(ChangaOne-Italic.ttf);
+  }
+  
+  @font-face {
+    font-family: Changaone-reg;
+    src: url(ChangaOne-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: haas;
+    src: url(NHaasGroteskTXPro-55Rg.ttf);
+  }
+  
+  @font-face {
+    font-family: Raleway;
+    src: url(Raleway-VariableFont_wght.ttf);
+  }
+  
+  @font-face {
+    font-family: Raleway-ita;
+    src: url(Raleway-Italic-VariableFont_wght.ttf);
+  }
+  
+  body{
+      background-color: #4C0000;
+  }
+
+  .navigation nav{ 
+    margin-bottom: 0px ;
+    padding: 15px;
+  }
+
+  .projects-nav-link{
+    text-decoration: underline;
+    text-underline-offset: 15px;
+
+  }
+  .projects-page-section{
+    background-color: #E1DAC2;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+   
+    
+  }
+
+  .projects-page-section h3{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: Changaone-reg;
+    color: #4C0000;
+    font-size: 40px;
+    padding-bottom: 20px;
+    
+  }
+
+  .pro-box{
+    padding: 10px;
+  }
+  
+
+
+.frame {
+	text-align: center;	
+	position: relative;
+	cursor: pointer;	
+	perspective: 500px; 
+  padding: 10px;
+}
+
+.frame .details {
+  height: 96%;
+  
+	width: 96%;
+
+	padding: 5% 8%;
+	position: absolute;
+	content: "";
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) ;
+	transform-origin: 50%;
+	background: rgba(0,0,0,0.4);	
+    color: #E1DAC2;
+	opacity: 0;
+	transition: all 0.4s ease-in;
+  border-radius: 20px;
+ 
+
+}
+.frame:hover .details {
+	transform: translate(-50%, -50%) rotateY(0deg);
+	opacity: 1;
+}
+
+.details h1{
+    text-shadow: 0px 4px 4px #000000;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: Changaone-reg;
+    color: #E1DAC2;
+    font-size: 20px;
+  
+}
+
+.details h3{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+text-align: center;
+color: #E1DAC2;
+text-shadow: 0px 4px 4px #000000;
+
+}
+
+/*Computer Graphics*/
+.cg-main-section{
+ padding-top: 50px;
+ padding-bottom: 50px;
+
+}
+
+.cg-main-section h3{
+  color: #E1DAC2;
+  font-family: Changaone-reg;
+  font-size: 40px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.cg-main-section h6{
+  font-size: 18px;
+  color: #E1DAC2;
+  font-family: Changaone-reg;
+
+}
+.cg-main-section p{
+  padding-top: 30px;
+  color: #E1DAC2;
+  font-family: Raleway;
+}
+.cg-page-section{
+  background-color: #E1DAC2;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+ 
+  
+}
+
+.cg-page-section h3{
+  color: #4C0000;
+  font-family: Changaone-reg;
+  font-size: 40px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.cg-page-content{
+  padding-top: 30px;
+}
+
+.cg-page-content img{
+  border-radius: 24px;
+}
+
+.cg-page-content-letter{
+  background-color: #E1DAC2;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+ 
+  padding-top: 50px;
+  padding-bottom: 50px;
+ 
+  
+}
+
+.cg-page-content-letter h3{
+  color: #4C0000;
+  font-family: Changaone-reg;
+  font-size: 40px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-bottom:20px;
+}
+
+.cg-page-content-letter img{
+  border-radius: 24px;
+}
+
+/*Radio*/
+.radio-audio{
+  cursor: pointer;
+}
+
+
+.radio-pause{
+  cursor: pointer;
+  color: #4C0000;
+  border: 3px solid #4C0000;
+  border-radius: 8px;
+  padding: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  transition: 0.3s;
+  font-size: 20px;
+  width: 250px;
+  font-family: Raleway;
+  
+}
+
+.radio-pause:hover{
+  text-decoration: none;
+  background-color: #4C0000;
+  color: #E1DAC2;
+
+}
+
+.content {
+  position: relative;
+  width: 90%;
+  max-width: 800px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.content .content-overlay {
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+  border-radius: 4px;
+}
+
+.content:hover .content-overlay{
+  opacity: 1;
+  border-radius: 14px;
+}
+
+.content-image{
+  width: 100%;
+  border-radius: 4px;
+}
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .content-details{
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.content-details h3{
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+.content-details p{
+  color: #fff;
+  font-size: 0.8em;
+}
+
+.fadeIn-bottom{
+  top: 80%;
+}
+
+.fadeIn-top{
+  top: 20%;
+}
+
+.fadeIn-left{
+  left: 20%;
+}
+
+.fadeIn-right{
+  left: 80%;
+}
+
+.click-play{
+  text-decoration: none;
+  color: #4C0000;
+  border: 2px solid #4C0000;
+  background-color: #E1DAC2;
+  padding: 10px;
+  font-family: Raleway;
+  border-radius: 4px;
+}
+
+.click-play:hover{
+ text-decoration: none;
+ color: #E1DAC2;
+ background-color: #4C0000;
+}
+
+
+/*Brand Identity*/
+.brand-main-section{
+  padding-top: 50px;
+  padding-bottom: 50px;
+ 
+ }
+ 
+ .brand-main-section h3{
+   color: #E1DAC2;
+   font-family: Changaone-reg;
+   font-size: 40px;
+   font-weight: 400;
+   text-transform: uppercase;
+ }
+ .brand-main-section h6{
+   font-size: 18px;
+   color: #E1DAC2;
+   font-family: Changaone-reg;
+ 
+ }
+ .brand-main-section p{
+   padding-top: 30px;
+   color: #E1DAC2;
+   font-family: Raleway;
+ }
+ .brand-page-section{
+   background-color: #E1DAC2;
+   margin-left: 30px;
+   margin-right: 30px;
+   margin-bottom: 30px;
+   border-radius: 8px;
+   padding-top: 50px;
+   padding-bottom: 50px;
+  
+   
+ }
+ 
+ .brand-page-section h3{
+   color: #4C0000;
+   font-family: Changaone-reg;
+   font-size: 40px;
+   font-weight: 400;
+   text-transform: uppercase;
+ }
+
+ .brand-page-content{
+  padding-top: 30px;
+}
+
+.brand-page-content img{
+  border-radius: 24px;
+}
+
+/*Magazine*/
+
+.magazine-main-section{
+  padding-top: 50px;
+  padding-bottom: 50px;
+ 
+ }
+ 
+ .magazine-main-section h3{
+   color: #E1DAC2;
+   font-family: Changaone-reg;
+   font-size: 40px;
+   font-weight: 400;
+   text-transform: uppercase;
+ }
+ .magazine-main-section h6{
+   font-size: 18px;
+   color: #E1DAC2;
+   font-family: Changaone-reg;
+ 
+ }
+ .magazine-main-section p{
+   padding-top: 30px;
+   color: #E1DAC2;
+   font-family: Raleway;
+ }
+ .magazine-page-section{
+   background-color: #E1DAC2;
+   margin-left: 30px;
+   margin-right: 30px;
+   margin-bottom: 30px;
+   border-radius: 8px;
+   padding-top: 50px;
+   padding-bottom: 50px;
+  
+   
+ }
+ 
+ .magazine-page-section h3{
+   color: #4C0000;
+   font-family: Changaone-reg;
+   font-size: 40px;
+   font-weight: 400;
+   text-transform: uppercase;
+ }
+
+ .magazine-page-content{
+  padding-top: 30px;
+}
+
+.magazine-page-content img{
+  border-radius: 24px;
+}
