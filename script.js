@@ -1,3 +1,8 @@
+$(window).on('load', function() {
+  $('#preloader-logo').delay(5000).fadeOut();
+  $('#preloader').delay(5000).fadeOut('slow'); 
+  $('body').delay(5000).css({'overflow':'visible'});
+});
 
 
 $(document).ready(function () {
