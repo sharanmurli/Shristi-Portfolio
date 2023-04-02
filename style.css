@@ -602,15 +602,35 @@ display: inline-block;
  }
 
  .footer-social-links ul li a{
-  text-decoration: none;
+
+  border: 2px solid #FFFDF5;
+  border-radius: 10px;
+  justify-items: center;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+ 
+  
+
+ 
+ }
+
+ .footer-social-links ul li a:hover {
+  background-color: #FFFDF5;
+  color: #4C0000;
  
  }
  
 
 .footer-social-links ul li a i{
-  font-size: 32px;
+  font-size: 26px;
   color: #FFFDF5;
+  vertical-align: middle;
+ 
 }
+
 
 
 .footer-navigation-links ul{
@@ -653,4 +673,6 @@ display: inline-block;
   font-size: 16px;
 
 }
+
+/*Preloader*/
 
