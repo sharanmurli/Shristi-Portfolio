@@ -39,7 +39,8 @@ body{
 .navbar-background .navbar-nav .nav-item .nav-link{
  
   
-  color: #E1DAC2;
+  color: #FFFDF5;
+  border-radius: 10px;
   font-size: 18px;
   transition: .2s;
  
@@ -47,7 +48,8 @@ body{
 
 .navbar-nav .nav-item .nav-link:hover{
  
-  background-color: #E1DAC2;
+  background-color: #FFFDF5;
+  border-radius: 10px;
   color: #4C0000;
 
 }
@@ -57,6 +59,10 @@ body{
   padding: 15px;
 }
 
+.nav-logo{
+  height: 90px;
+  width: 110px;
+}
 
 .nav-icon1 {
     width: 30px;
@@ -133,7 +139,7 @@ body{
    
 /*Home Section*/
 .home-section{
-  background-color: #E1DAC2;
+  background-color: #FFFDF5;
   margin-left: 30px;
   margin-right: 30px;
   margin-bottom: 20px;
@@ -193,7 +199,7 @@ body{
 }
 
 .about-section-bg{
-  background-color: #E1DAC2;
+  background-color: #FFFDF5;
   margin-left: 30px;
   margin-right: 30px;
   margin-bottom: 20px;
@@ -232,21 +238,24 @@ body{
 
 .about-but{
   color: #4C0000;
-  border: 3px solid #4C0000;
-  border-radius: 8px;
+  font-family: Raleway;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 2px solid #4C0000;
+  border-radius: 10px;
   padding: 10px;
   text-decoration: none;
   text-align: center;
   transition: 0.3s;
-  font-size: 20px;
-  width: 160px;
+  font-size: 16px;
+  width: 200px;
   font-family: Raleway;
 }
 
 .about-but:hover{
   text-decoration: none;
   background-color: #4C0000;
-  color: #E1DAC2;
+  color: #FFFDF5;
 
 }
 /*Projects Section*/
@@ -256,7 +265,8 @@ body{
 }
 
 .projects-section-bg{
-  background-color: #E1DAC2;
+  /*background-color: #E1DAC2;*/
+  background-color: #FFFDF5;
 
   border-radius: 8px;
   padding-top: 50px;
@@ -284,20 +294,30 @@ body{
   border-radius: 26px;
 }
 
+.projects-button-sec{
+  padding-top: 30px;
+
+}
+
 .projects-but{
-  text-decoration: none;
   color: #4C0000;
-  background-color: #E1DAC2;
+  font-family: Raleway;
+  font-weight: 600;
+  border: 2px solid #4C0000;
+  border-radius: 10px;
   padding: 10px;
-  border: 2px solid #E1DAC2;
-  border-radius: 6px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
   transition: 0.3s;
+  font-size: 16px;
+  width: 200px;
+ 
 }
 .projects-but:hover{
   text-decoration: none;
   background-color: #4C0000;
-  color: #E1DAC2;
-  border: 2px solid #4C0000;
+  color: #FFFDF5;
 }
 
 #projects img {
@@ -314,9 +334,9 @@ body{
 }
 
 .content .content-overlay {
-  background: rgba(0,0,0,0.7);
+  background: rgba(0,0,0,0.3);
   position: absolute;
-  height: 99%;
+  height: 100%;
   width: 100%;
   left: 0;
   top: 0;
@@ -363,7 +383,7 @@ body{
 }
 
 .content-details h3{
-  color: #E1DAC2;
+  color: #FFFDF5;
   font-weight: 500;
   letter-spacing: 0.15em;
   margin-bottom: 0.5em;
@@ -372,7 +392,7 @@ body{
   font-size: 24px;
 }
 .content-details h6{
-  color: #E1DAC2;
+  color: #FFFDF5;
   font-weight: 400;
   letter-spacing: 0.15em;
   margin-bottom: 0.5em;
@@ -383,17 +403,22 @@ body{
 }
 
 .pro-but{
-  text-decoration: none;
-  text-align: center;
-  padding: 10px;
-  border: 2px solid #4C0000;
   color: #4C0000;
   font-family: Raleway;
-  border-radius: 4px;
-  background-color: #E1DAC2;
+  font-weight: 600;
+  border: 2px solid #4C0000;
+  background-color: #FFFDF5;
+  border-radius: 10px;
+  padding: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  transition: 0.3s;
+  font-size: 14px;
+  width: 120px;
 }
 .pro-but:hover{
-  color: #E1DAC2;
+  color: #FFFDF5;
   background-color: #4C0000;
   text-decoration: none;
 
@@ -426,7 +451,8 @@ body{
 }
 
 .photography-section-bg{
-  background-color: #E1DAC2;
+
+  background-color: #FFFDF5;
   margin-left: 30px;
   margin-right: 30px;
   margin-bottom: 5px;
@@ -450,19 +476,21 @@ body{
 }
 
 .photography-button{
-  text-decoration: none;
+ 
   display:inline-block ;
-  padding: 10px;
-  text-align: center;
-  text-transform: uppercase;
-  border: 2px solid #4C0000;
-  border-radius: 8px;
   color: #4C0000;
-  transition: .2s;
-  background-color: #E1DAC2;
-  font-size: 18px;
-  width: 200px;
   font-family: Raleway;
+  font-weight: 600;
+  border: 2px solid #4C0000;
+  background-color: #FFFDF5;
+  border-radius: 10px;
+  padding: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  transition: 0.3s;
+  font-size: 16px;
+  width: 200px;
  
 }
 
@@ -470,7 +498,7 @@ body{
   text-decoration: none;
  
  background-color: #4C0000;
- color: #E1DAC2;
+ color: #FFFDF5;
 }
 
 #carouselExampleIndicators .carousel-inner .carousel-item .carousel-caption {
@@ -492,23 +520,57 @@ display: inline-block;
 
 .photo-but{
   color: #4C0000;
-  border: 3px solid #4C0000;
-  border-radius: 8px;
+  font-family: Raleway;
+  font-weight: 600;
+  border: 2px solid #4C0000;
+  border-radius: 10px;
   padding: 10px;
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
   transition: 0.3s;
-  font-size: 18px;
+  font-size: 16px;
   width: 200px;
-  font-family: Raleway;
 }
 
 .photo-but:hover{
   text-decoration: none;
   background-color: #4C0000;
-  color: #E1DAC2;
+  color: #FFFDF5;
 
+}
+/*Resume Section*/
+.resume-nav-link{
+  text-decoration: underline;
+  text-underline-offset: 15px;
+
+}
+
+.resume-page-section{
+  background-color: #4C0000;
+ 
+ 
+  padding-top: 10px;
+  padding-bottom: 0px;
+ 
+  
+}
+
+.resume-page-section h3{
+  text-transform: uppercase;
+  font-weight: 900;
+  font-family: Changaone-reg;
+  color: #FFFDF5;
+  font-size: 40px;
+
+  
+}
+.resume-page-content{
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.resume-page-content img{
+  border-radius: 10px;
 }
 /*Footer Section*/
 .footer-section{
@@ -527,7 +589,7 @@ display: inline-block;
 
  .footer-social-links .footer-social-box ul{
   list-style-type: none;
-  border: 1px solid #E1DAC2;
+  border: 1px solid #FFFDF5;
 
   
 
@@ -547,7 +609,7 @@ display: inline-block;
 
 .footer-social-links ul li a i{
   font-size: 32px;
-  color: #E1DAC2;
+  color: #FFFDF5;
 }
 
 
@@ -561,32 +623,33 @@ display: inline-block;
 .footer-navigation-links ul li{
   display: inline-block;
   padding: 10px;
-  color: #E1DAC2;
+  color: #FFFDF5;
  }
 
  
 .footer-navigation-links ul li a{
   text-decoration: none;
-  color: #E1DAC2;
-  transition: 0.2s;
+  color: #FFFDF5;
+  transition: 0.3s;
 
 }
 
 .footer-navigation-links ul li a:hover{
   text-decoration: none;
-  color: grey;
+  text-decoration: underline;
+  text-underline-offset: 15px;
  
 
 }
 
 .footer-line{
-  color:#E1DAC2;
-  border: 1px solid #E1DAC2;
+  color:#FFFDF5;
+  border: 1px solid #FFFDF5;
   margin-left:40px ;
   margin-right:40px ;
 }
 .footer-copyright{
-  color: #E1DAC2;
+  color: #FFFDF5;
   font-size: 16px;
 
 }
