@@ -66,6 +66,15 @@
     
   }
 
+  .photography-page-section p{
+    
+    font-family:Raleway;
+    color: #4C0000;
+    font-size: 20px;
+    padding-bottom: 20px;
+    
+  }
+
   
   .photography-box1{
     padding: 10px;
@@ -114,3 +123,7 @@ height: 50px;
     background-color: #4C0000;
   }
 
+/*slider*/
+#slider{
+  padding-top: 20px;
+}

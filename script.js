@@ -4,6 +4,7 @@ $(window).on('load', function() {
   $('body').delay(5000).css({'overflow':'visible'});
 });
 
+
 $('img[data-enlargable]').addClass('img-enlargable').click(function(){
   var src = $(this).attr('src');
   $('<div>').css({
