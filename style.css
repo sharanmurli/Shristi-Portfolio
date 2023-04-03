@@ -714,3 +714,262 @@ video {
   height: 100%;
   z-index: 1;
 }
+
+/*Mobile View*/
+
+@media only screen and (max-width: 600px) {
+  .nav-logo{
+    height: 60px;
+    width: 70px;
+  }
+  .footer-logo{
+    height: 120px;
+    width: 120px;
+  }
+  
+.home-but{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #4C0000;
+  background-color: transparent;
+  border: #4C0000 solid 3px;
+  border-radius: 14px;
+  padding: 10px;
+  font-weight: 600;
+  transition: 0.2s;
+  font-family: haas;
+  font-size: 14px;
+  width: 150px;
+
+
+
+}
+.home-but:hover{
+  text-decoration: none;
+ 
+  color: #4C0000;
+
+}
+
+.home-content{
+  padding-top: 10px;
+}
+
+
+.home-content h3{
+ color: #4C0000;
+ text-transform: uppercase;
+ font-weight: 900;
+ font-family: Changaone-reg;
+ font-size: 20px;
+ text-align: center;
+}
+
+.home-img{
+  width: 450px;
+  height: 450px;
+
+}
+
+
+.about-section-bg h3{
+  color: #4C0000;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-family: Changaone-reg;
+  font-size: 22px;
+
+}
+
+.about-section-bg p{
+  color: #4C0000;
+
+ 
+  font-family: Raleway;
+  font-size: 14px;
+
+}
+
+.about-text{
+  padding-top: 50px;
+}
+
+.about-button-sec{
+  padding-top: 10px;
+
+}
+
+.about-but{
+  color: #4C0000;
+  font-family: Raleway;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 2px solid #4C0000;
+  border-radius: 10px;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  transition: 0.3s;
+  font-size: 14px;
+  width: 140px;
+  font-family: Raleway;
+}
+
+.about-but:hover{
+  text-decoration: none;
+  background-color: #4C0000;
+  color: #FFFDF5;
+
+}
+
+.projects-section-bg h3{
+  color: #4C0000;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-family: Changaone-reg;
+  font-size: 22px;
+
+}
+
+.projects-box{
+  padding-top: 30px;
+}
+
+.projects-box .card{
+  border-radius: 26px;
+}
+
+.projects-button-sec{
+  padding-top: 30px;
+
+}
+
+.projects-but{
+  color: #4C0000;
+  font-family: Raleway;
+  font-weight: 600;
+  border: 2px solid #4C0000;
+  border-radius: 10px;
+  padding: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  transition: 0.3s;
+  font-size: 14px;
+  width: 140px;
+ 
+}
+.projects-but:hover{
+  text-decoration: none;
+  background-color: #4C0000;
+  color: #FFFDF5;
+}
+
+#projects img {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 42px;
+}
+
+.content {
+  position: relative;
+  width: 90%;
+  max-width: 800px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.content .content-overlay {
+  background: rgba(0,0,0,0.3);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+  border-radius: 4px;
+}
+
+.content:hover .content-overlay{
+  opacity: 1;
+  border-radius: 14px;
+}
+
+.content-image{
+  width: 100%;
+  border-radius: 4px;
+}
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .content-details{
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.content-details h3{
+  color: #FFFDF5;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+  font-family: Changaone-reg;
+  font-size: 16px;
+}
+.content-details h6{
+  color: #FFFDF5;
+  font-weight: 400;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+  font-family: Raleway;
+  font-size: 12px;
+  padding-bottom: 8px;
+}
+
+.pro-but{
+  color: #4C0000;
+  font-family: Raleway;
+  font-weight: 600;
+  border: 2px solid #4C0000;
+  background-color: #FFFDF5;
+  border-radius: 10px;
+  padding: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  transition: 0.3s;
+  font-size: 12px;
+  width: 80px;
+}
+.pro-but:hover{
+  color: #FFFDF5;
+  background-color: #4C0000;
+  text-decoration: none;
+
+}
+.content-details p{
+  color: #fff;
+  font-size: 0.8em;
+}
+}
